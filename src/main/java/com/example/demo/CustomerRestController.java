@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class CustomerRestController {
+String a="sandhya";
 	//To bind the method to get request.Post proccesing will happen by dispatcher servlet
 	@GetMapping(value="/getCustomer",//--->post-processing request
 			produces="application/json"//-->server is produces
@@ -35,4 +36,7 @@ public class CustomerRestController {
 		return "Added Successfully";
 		
 	}
+//DTB-234
+public void m1(){
+}
 }
