@@ -36,7 +36,13 @@ String a="sandhya";
 		return "Added Successfully";
 		
 	}
+  
+//feature-301
+public void m2(){
+System.out.println("Hello");
+
 //feature-300
 public void m1(){
+ 
 }
 }
